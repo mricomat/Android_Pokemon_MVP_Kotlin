@@ -8,7 +8,7 @@ This repository contains a detailed basic example app that implements MVP arquit
 # Arquitecture
 ![pokemon_mvp_arquitecture](https://user-images.githubusercontent.com/35971408/48472913-948ce480-e7f7-11e8-9ff1-7606cb843740.jpg)
 
-
+(It's using the java structure in this img, I will change it soon)
 # Project Structure
 <img src = "https://user-images.githubusercontent.com/35971408/48477970-45e54780-e803-11e8-8f3c-5b3536c7326d.png">
 <br>
