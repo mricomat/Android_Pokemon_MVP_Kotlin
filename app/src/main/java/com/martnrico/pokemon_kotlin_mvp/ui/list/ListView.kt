@@ -9,9 +9,4 @@ interface ListView : BaseView {
 
     fun showListPokemonNames(pokemonNames: List<String>)
 
-    fun showLoading()
-
-    fun hideLoading()
-
-    fun showError()
 }

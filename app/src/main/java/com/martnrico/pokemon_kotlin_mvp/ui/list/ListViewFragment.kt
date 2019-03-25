@@ -24,7 +24,8 @@ class ListViewFragment : BaseFragment(), ListView, ItemClickListener {
         private const val INSTANCE_ID = "instance_id"
     }
 
-    @Inject lateinit var mPresenter: ListPresenter<ListView>
+    @Inject
+    lateinit var mPresenter: ListPresenter<ListView>
     private lateinit var mAdapter: ListAdapter
 
     fun newInstance(): Fragment {
@@ -91,7 +92,7 @@ class ListViewFragment : BaseFragment(), ListView, ItemClickListener {
     }
 
     override fun onItemClick(view: View, position: Int, name: String) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        mPresenter.onPokemonClicked(name, position + 1)
     }
 
 }
